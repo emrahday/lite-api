@@ -1,0 +1,76 @@
+[
+  {
+    "path": "user",
+    "method": "GET",
+    "response": {
+      "id": "foo",
+      "email": "bar"
+    },
+    "request": {
+      "name": "abc",
+      "email": "bar"
+    }
+  },
+  {
+    "path": "user",
+    "method": "POST",
+    "response": {
+      "id": "${random()}",
+      "email": "${email}",
+      "name": "${name}",
+      "created": "${time()}"
+    },
+    "request": {
+      "name": "abc",
+      "email": "bar"
+    }
+  },
+  {
+    "path": "item",
+    "method": "GET",
+    "response": {
+      "id": "${id}",
+      "name": "foo"
+    },
+    "request": {
+      "id": "123"
+    }
+  },
+  {
+    "path": "item/list",
+    "method": "GET",
+    "response": [
+      {
+        "id": "${random()}",
+        "name": "foo"
+      },
+      {
+        "id": "${random()}",
+        "name": "foo"
+      }
+    ],
+    "request": {}
+  },
+  {
+    "path": "my/photo/:id",
+    "method": "GET",
+    "response": {
+      "id": "${id}",
+      "name": "ddd"
+    },
+    "request": {
+      "id": "1"
+    }
+  },
+  {
+    "path": "multi",
+    "method": "GET|POST|DELETE|PUT",
+    "response": {
+      "id": "${random()}",
+      "name": "ddd"
+    },
+    "request": {
+      "name": "dsdfs"
+    }
+  }
+]
