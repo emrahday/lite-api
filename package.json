@@ -1,6 +1,6 @@
 {
   "name": "lite-api",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Cli application in order to mock api",
   "keywords": "api, mock, fake, json, cli, express, node",
   "main": "./lib/lite-api.js",
