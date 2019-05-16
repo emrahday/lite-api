@@ -3,7 +3,7 @@ lite-api is an easy to configure and use mock server. You can easly start your m
 
 # Why I need lite-api
 
-Think about that you are developing a front-end web applibation, or mobile appication whichi sending json data to api or rerieving json data from api. In a real word scenerio it is difficult to make api and client side development as parallel therefore you need to wait complete development and deployment of api in most cases. 
+Think about that you are developing a front-end web application, or mobile application which is sending json data to api or retrieving json data from api. In a real word scenario it is difficult to prepare api and client side development as parallel therefore you need to be syncronized to api development and deployment of api in most cases. 
 
 With lite-api, after an agreement on api endpoints and http methods, both side can develop independently without blocking each other. 
 
