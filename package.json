@@ -1,8 +1,8 @@
 {
   "name": "lite-api",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Cli application in order to mock api",
-  "keywords": "api, mock, fake, json, cli, express, node",
+  "keywords": ["api", "mock", "fake", "json", "cli", "express", "node"],
   "main": "./lib/lite-api.js",
   "bin": {
     "lite-api": "./bin/index.js"
